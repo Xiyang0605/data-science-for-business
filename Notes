@@ -1,0 +1,16 @@
+##Supervised versus unsupervised methods
+- Unsupervised: no specific purpose or target has been specified
+- Supervised: aiming towards a purpose (condition: there must be data on the target, if data missing or incomplete, the target value cannot be provided).
+  --Classification: usually involves a categorical target, example: will this customer purchase service if given incentive x? Which service package will a customer likely purchase if given incentive x?
+  --Regression: usually involves a numeric target, example: How much will this customer use the service?
+  --Sometimes we want a numerical prediction over a categorical target, this is called 'Class probability estimation', example: model the probability that the customer will continue.
+- The vital part in the early stage of data mining process: decide whether the line of attack will be supervised or unsupervised, and if supervides, to produce a precise defination of a target variable.
+
+##Data mining and its results
+- Mining the data to find patterns and build models
+- Using the results of data mining
+
+##Process of data mining
+- Business understanding: how to translate business problems into ds problems --> classification, class probablility estimation ,regression, similarity match, clustering (similarity between objects based on the objects' attributes), co-occurrence grouping (co-occurence in transactions), 
+- Data understanding: Understand the strengths and limitations of the data; Estimating the costs and benefits of each data source and deciding whether further investment is merited.
+
