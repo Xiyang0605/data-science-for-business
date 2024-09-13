@@ -1,3 +1,4 @@
+# Business Problems and Data Science Solutions
 ##Supervised versus unsupervised methods
 - Unsupervised: no specific purpose or target has been specified
 - Supervised: aiming towards a purpose (condition: there must be data on the target, if data missing or incomplete, the target value cannot be provided).
@@ -13,4 +14,15 @@
 ##Process of data mining
 - Business understanding: how to translate business problems into ds problems --> classification, class probablility estimation ,regression, similarity match, clustering (similarity between objects based on the objects' attributes), co-occurrence grouping (co-occurence in transactions), 
 - Data understanding: Understand the strengths and limitations of the data; Estimating the costs and benefits of each data source and deciding whether further investment is merited.
+- Data Preparation
+- Data Modeling: More chapters on this, skimmed here
+- Evaluation 
+- Deployment
 
+##Business questions examples to be answered by different techniques
+- Who are the most profitable customers? Database queries.
+- Is there really a difference between the profitable customer and the average customer? Statistical hypothesis testings - p=? that this is due to random chance.
+- But who really are these customers? Can I characterize them? Characteristics of individual customers can be extracted from a database, but the analysis to figure out pattern is data science.
+- Will some particular new customer be profitable? How much revenue should I expect this customer to generate? Should be addressed by data mining techniques that examine historical customer records and produce predictive models of profitability.
+
+#Predictive Modeling: From Correlation to Supervised Segmentation
