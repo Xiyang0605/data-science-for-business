@@ -26,3 +26,21 @@
 - Will some particular new customer be profitable? How much revenue should I expect this customer to generate? Should be addressed by data mining techniques that examine historical customer records and produce predictive models of profitability.
 
 #Predictive Modeling: From Correlation to Supervised Segmentation
+- An intuitive way of thinking about extracting patterns from data in a supervised manner is to try to segment the population into subgroups that have different values for the target variable.
+- BUT, usually we have MANY attributes, and not sure exactly what the segments should be. Ideally we would want to extract the most important variables automatically. Unfortunately in reall data we seldom expect to find a variable that will make the segments pure.
+- We can create a formula that evaluates how well each attributes splits a set of examples into segments, with repsect to a chosen target variable ---> purity measure. One of the splitting citerion is called information gain, which is based on a purity measure called entropy.
+- Entropy=-p1log(p1)-p2log(p2)-...each pi is the probability(the relative percentage) of property i within the set, ranging from pi=1 when all members of the set have property i, and pi = 0 when no members
+of the set have property i. The … simply indicates that there may be more than just two
+properties .
+- Example: As a concrete example, consider a set S of 10 people with seven of the non-write-off class
+and three of the write-off class. So:
+p(non-write-off) = 7 / 10 = 0.7
+p(write-off) = 3 / 10 = 0.3
+entropy(S) = [- 0.7 × log2
+(0.7) + 0.3 × log2
+(0.3)]
+≈ -[0.7 × - 0.51 + 0.3 × - 1.74]
+≈ 0.88
+
+
+
