@@ -1,1 +1,1 @@
-- Cost function: squared error cost function is widely used for linear regression. 
+- Cost function: squared error cost function is widely used for linear regression. It aims to measure the distances between the predicted value y hat and true value of y.
